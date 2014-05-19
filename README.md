@@ -1,4 +1,4 @@
 xss-demo
 ========
 
-A simple Rack application that's meant to teach people about XSS
+A simple Rack application that's meant to teach developers about XSS.
