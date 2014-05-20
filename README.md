@@ -12,6 +12,10 @@ $ bundle exec rackup
 
 Now open your browser and go to `http://0:9292`.
 
+## A Note on Browsers
+
+Chrome seems to have some built-in XSS protections. I'm still learning about how all this works so in the meantime consider using Firefox when messing with this application. Explanations/PRs to make Chrome ignore XSS attempts are more than welcome.
+
 ## Further Reading
 
 * https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)
